@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "technologi",
+  "info": {
+    "singularName": "technologie",
+    "pluralName": "technologi",
+    "displayName": "technologies"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "text": {
+      "type": "richtext"
+    },
+    "logo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
